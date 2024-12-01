@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login-PARTY&KWANG Food</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo-Brand-02.png" alt="Logo" height="75">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            อาหาร
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html#products-rice">เมนูข้าว</a></li>
+                            <li><a class="dropdown-item" href="index.html#products-noodle">เมนูก๋วยเตี๋ยว</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html#products-drink">เครื่องดื่ม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html#products-candy">ขนมหวาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="About-us.html">เกี่ยวกับร้าน</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn btn-primary" href="Login.html" style="margin-right: 10px;">เข้าสู่ระบบ</a>
+            <a class="btn btn-primary" href="Register.html" style="background-color: blueviolet;">สมัครสมาชิก</a>
+        </div>
+    </nav>
+    <!---Slider-->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--from login-->
+    <br><br><br>
+    <section class="form-login">
+        <div class="container con-shadow">
+            <h2><i class='bx bxs-user-circle' style="color: rgb(24, 81, 185);"></i>เข้าสู่ระบบจัดการพนักงาน</h2>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" name="username" id="username" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+                <button type="reset" class="btn btn-warning"> รีเซ็ต </button>
+                <a href="index.html" class="btn btn-success">หน้าแรก</a>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Copyright © 2024 บริษัท PARTYXZ & KWANG Foods จำกัด</p>
+    </div>
+</body>
+
+</html>
